@@ -1,0 +1,32 @@
+.content {
+  margin-right: 10px;
+}
+.admin {
+  color: rgb(156, 156, 156);
+}
+
+.user {
+  background-color: rgba(255, 255, 255, 0.712);
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-left: auto;
+}
+
+.other {
+  background-color: rgba(255, 255, 255, 0.712);
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.messageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sender {
+  color: rgb(156, 156, 156);
+}

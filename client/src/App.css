@@ -1,0 +1,21 @@
+:root {
+  --dark: #142850;
+  --semidark: #27496d;
+  --semilight: #00909e;
+  --light: #dae1e7;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto";
+  height: 100%;
+  background-color: var(--dark);
+  display: grid;
+  place-items: center;
+}

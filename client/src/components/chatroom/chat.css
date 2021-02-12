@@ -1,0 +1,52 @@
+.chatbox {
+  width: 400px;
+  border-radius: 5px;
+  background-color: var(--light);
+  position: relative;
+  display: grid;
+}
+.top {
+  background-color: var(--semidark);
+  color: var(--light);
+  font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+  height: 70px;
+}
+.main {
+  background-color: var(--light);
+  height: 500px;
+  padding: 3%;
+  overflow: auto;
+}
+.bottom {
+  background-color: var(--semidark);
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+
+.chatInput {
+  width: 80%;
+  height: 100%;
+  border: none;
+  font-family: "Roboto";
+}
+.chatInput:focus {
+  border: none;
+  outline: none;
+}
+
+.chatSend {
+  width: 20%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--semilight);
+  font-family: "Roboto";
+  color: var(--light);
+}
+
+.chatSend:active {
+  opacity: 0.7;
+}
